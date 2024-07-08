@@ -1,0 +1,108 @@
+#modal {
+  display: none;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.form-modal {
+  max-width: 500px;
+  background: #F0F4FC;
+  padding: 24px;
+  margin: 16px;
+}
+
+.close-icon {
+  width: max-content;
+  padding: 14px;
+  background: white;
+  border-radius: 10px;
+  margin: 0 0 0 auto;
+  cursor: pointer;
+  animation-duration: 300ms;
+}
+
+.close-icon:hover {
+  background: rgba(215, 226, 246, 0.56);
+}
+
+.sign-in_title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+
+.sign-in_inputs input {
+  padding: 24px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #1F4284;
+  background: #D7E2F6;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.sign-in_inputs input::placeholder {
+  color: #1F4284;
+}
+
+#email {
+  margin-bottom: 4px;
+}
+
+.remember_checkbox {
+  margin: 24px 0;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 18px;
+}
+
+#remember-me {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #323232;
+}
+
+.restore-button {
+  display: block;
+  color: #244C98;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 36px;
+}
+
+.modal-button {
+  padding: 18px;
+  width: 100%;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.modal-button:hover {
+  opacity: 0.8;
+}
+
+.filled-button {
+  background: #244C98;
+  color: white;
+}
+
+.blank-button {
+  color: #244C98;
+  border: 1px solid #244C98;
+  background: transparent;
+}
+
+.sign-in_button {
+  margin-bottom: 4px;
+}
